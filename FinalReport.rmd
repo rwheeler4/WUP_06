@@ -67,7 +67,7 @@ basicCC <- ggplot(dd2,aes(x=race,y=prcnt*100,fill=cappun))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
-
+According to the bar plot, the race of a person is affected to the way they view capital punishment. The graph shows that the white people prefer the capital punishment and blacks strongly disagree with it.
 
 ### Numerical Descriptive Results
 
