@@ -101,7 +101,7 @@ fisher.test(table2)
 #fisherXY(mydata$race,mydata$cappun)
 ```
 
-The p-value for the Chi-squared test was 0... which is too small to accept so we must reject the null hypothesis.
+The p-value for the Chi-squared test was 2.033e-14 which is too small to accept, and the other was .02479 so we must reject the null hypothesis.
 
 ```{r}
 fisherXY(mydata$cappun,mydata$race)
@@ -109,5 +109,7 @@ fisherXY(mydata$cappun,mydata$race)
  
 
 # Discussion and Conclusion
+
+The question was: "Is attitude towards capital punishment independent of race?" We can conclude that the race of a person is dependent of the race of the individual, with whites on the supporting end, and other races against it.
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
