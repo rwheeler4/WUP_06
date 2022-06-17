@@ -83,7 +83,7 @@ table2 <- xtabs(~race + cappun, data=mydata)
 rowPerc(table2)
 colPerc(table2)
 ```
-
+Whites seem to support the cappun much more than blacks and other by a significant margin.  
 
 ## Inferential Results
 
@@ -100,6 +100,8 @@ chisqtestGC(table2)
 fisher.test(table2)
 #fisherXY(mydata$race,mydata$cappun)
 ```
+
+The p-value for the Chi-squared test was 0... which is too small to accept so we must reject the null hypothesis.
 
 ```{r}
 fisherXY(mydata$cappun,mydata$race)
