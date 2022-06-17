@@ -110,6 +110,6 @@ fisherXY(mydata$cappun,mydata$race)
 
 # Discussion and Conclusion
 
-The question was: "Is attitude towards capital punishment independent of race?" We can conclude that the race of a person is dependent of the race of the individual, with whites on the supporting end, and other races against it.
+The question was: "Is attitude towards capital punishment independent of race?" We can conclude that the race of a person is dependent of the race of the individual, with whites on the supporting end, and other races against it. This data urges us to reject the null hypothesis that attitude towards capital punishment is independent of race. 
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
